@@ -1,4 +1,4 @@
-package Hometasks3;
+package Diplom;
 
 public class Main {
     public static void main(String[] args) {

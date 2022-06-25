@@ -1,4 +1,4 @@
-package Hometasks3;
+package Diplom;
 
 public class Address {
     String city;

@@ -36,13 +36,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Hometasks3.Main">
-    <configuration name="Hometasks3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hometasks3.Main" />
+  <component name="RunManager" selected="Application.Diplom.Main">
+    <configuration name="Diplom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Diplom.Main" />
       <module name="Univer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hometasks3.*" />
+          <option name="PATTERN" value="Diplom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,7 +59,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hometasks3.Main" />
+        <item itemvalue="Application.Diplom.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
