@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Добавил Проект и переименовал">
-      <change afterPath="$PROJECT_DIR$/src/Hometask7/Task1.java" afterDir="false" />
+    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Домашка 7">
+      <change afterPath="$PROJECT_DIR$/src/Hometask7/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hometask7/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hometask7/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hometask7/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hometask7/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
-  <component name="RunManager" selected="Application.Diplom.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.Task4">
     <configuration name="Diplom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Diplom.Main" />
       <module name="Univer" />
@@ -50,17 +56,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hometask7.Task1" />
       <module name="Univer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hometask7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hometask7.Task2" />
+      <module name="Univer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hometask7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hometask7.Task3" />
+      <module name="Univer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hometask7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hometask7.Task4" />
+      <module name="Univer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hometask7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Diplom.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656520322058</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Домашка 7">
+      <created>1656520808183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656520808183</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +187,7 @@
     <MESSAGE value="Второе" />
     <MESSAGE value="Добавил Проект" />
     <MESSAGE value="Добавил Проект и переименовал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил Проект и переименовал" />
+    <MESSAGE value="Домашка 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашка 7" />
   </component>
 </project>
