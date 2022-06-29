@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Добавил Проект и переименовал">
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hometask7/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656193164929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавил Проект и переименовал">
+      <created>1656520322058</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656520322058</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
