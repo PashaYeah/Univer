@@ -14,10 +14,10 @@ public class Student {
     public void setAddressStudent(Address address) {
         this.address = address;
     }
-    public void displayInfo() {
+    public String toString() {
         System.out.println("Имя студента - " + name + ", фамилия - " + lastname + ", возраст - " + age
                 + ", проживающий по адресу: город " + address.city + ", улица " + address.street + ", дом " + address.house + ", квартира " + address.flat);
-    }
+        }
 }
 
 

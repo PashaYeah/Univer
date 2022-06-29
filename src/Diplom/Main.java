@@ -5,7 +5,7 @@ public class Main {
         Address addressStudent = new Address("Минск", "Притыцкого", 80, 80);
         Address addressTeacher = new Address("Минск", "Лещинского", 17, 490);
         Student tom = new Student("Саша", "Иванов", 20, addressStudent);
-        tom.displayInfo();
+        tom.toString();
         Address address1 = new Address("Брест", "Советская", 14, 7);
         tom.setAddressStudent(address1);
 

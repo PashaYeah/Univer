@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Второе">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Добавил Проект и переименовал">
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656192537590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил Проект">
+      <created>1656193059615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656193059615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавил Проект">
+      <created>1656193083436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656193083436</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавил Проект и переименовал">
+      <created>1656193164929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656193164929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +119,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Второе" />
-    <option name="LAST_COMMIT_MESSAGE" value="Второе" />
+    <MESSAGE value="Добавил Проект" />
+    <MESSAGE value="Добавил Проект и переименовал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Проект и переименовал" />
   </component>
 </project>
