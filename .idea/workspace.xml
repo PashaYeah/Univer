@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Домашка 7">
-      <change afterPath="$PROJECT_DIR$/src/Hometask7/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hometask7/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hometask7/Task4.java" afterDir="false" />
+    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment=" сделал 7 домашку">
+      <change afterPath="$PROJECT_DIR$/src/Hometask8/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hometask7/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hometask7/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +31,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Task4">
-    <configuration name="Diplom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Diplom.Main" />
+}</component>
+  <component name="RunManager" selected="Application.Hometask8.Task1">
+    <configuration name="Hometask8.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hometask8.Task1" />
       <module name="Univer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Diplom.*" />
+          <option name="PATTERN" value="Hometask8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hometask8.Task1" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Diplom.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656520808183</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" сделал 7 домашку">
+      <created>1656525795225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656525795225</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +191,7 @@
     <MESSAGE value="Добавил Проект" />
     <MESSAGE value="Добавил Проект и переименовал" />
     <MESSAGE value="Домашка 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашка 7" />
+    <MESSAGE value=" сделал 7 домашку" />
+    <option name="LAST_COMMIT_MESSAGE" value=" сделал 7 домашку" />
   </component>
 </project>
