@@ -1,22 +1,15 @@
 package Diplom;
 
-public class Teacher {
-    String name;
-    String lastname;
-    int age;
-    private Address address;
-    Teacher (String name, String lastname, int age, Address address) {
-        this.name = name;
-        this.lastname = lastname;
-        this.age = age;
-        this.address = address;
+public class Teacher extends People {
+
+    public Teacher(String name, String lastname, int age, Address address) {
+        super(name, lastname, age, address);
     }
-    public void setAddressTeacher(Address address) {
-        this.address = address;
-    }
-    public void displayInfo() {
-        System.out.println("Имя учителя - " + name + ", фамилия - " + lastname + ", возраст - " + age
-                + ", проживающий по адресу: город " + address.city + ", улица " + address.street + ", дом " + address.house + ", квартира " + address.flat);
+
+    @Override
+    public String toString() {
+        return "Имя учителя - " + super.getName() + ", фамилия - " + super.getLastname() + ", возраст - " + super.getAge()
+                + ", проживающий по адресу: " + super.getAddress().toString();
     }
     double hourlyPayment;
     double hours;

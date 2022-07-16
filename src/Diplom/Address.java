@@ -1,47 +1,50 @@
 package Diplom;
 
 public class Address {
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setStreet(String street) {
-        this.street = street;
-    }
-
-    public void setHouse(int house) {
-        this.house = house;
-    }
-
-    public void setFlat(int flat) {
-        this.flat = flat;
-    }
+    private String city;
+    private String street;
+    private int house;
+    private int flat;
 
     public String getCity() {
         return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 
     public String getStreet() {
         return street;
     }
 
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
     public int getHouse() {
         return house;
+    }
+
+    public void setHouse(int house) {
+        this.house = house;
     }
 
     public int getFlat() {
         return flat;
     }
 
-    String city;
-    String street;
-    int house;
-    int flat;
+    public void setFlat(int flat) {
+        this.flat = flat;
+    }
 
     public Address(String city, String street, int house, int flat) {
         this.city = city;
         this.street = street;
         this.house = house;
         this.flat = flat;
+    }
+    public String toString(){
+       return "город " + city + ", улица " + street + ", дом " + house + ", квартира " + flat;
     }
 }

@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment=" сделал 7 домашку">
-      <change afterPath="$PROJECT_DIR$/src/Hometask8/Task1.java" afterDir="false" />
+    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment=" сделал 8 домашку">
+      <change afterPath="$PROJECT_DIR$/src/Diplom/Methodist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Diplom/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkTask9/Exceptions/AgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkTask9/Exceptions/TooOldException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkTask9/Exceptions/TooYoungException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkTask9/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkTask9/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkTask9/Util/AgeUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Hometask8.Task1">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Hometask8.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hometask8.Task1" />
       <module name="Univer" />
@@ -52,38 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hometask7.Task1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Diplom.Main" />
       <module name="Univer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hometask7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hometask7.Task2" />
-      <module name="Univer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hometask7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hometask7.Task3" />
-      <module name="Univer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hometask7.*" />
+          <option name="PATTERN" value="Diplom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,13 +90,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkTask9.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkTask9.Task1" />
+      <module name="Univer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WorkTask9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkTask9.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkTask9.Task2" />
+      <module name="Univer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WorkTask9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WorkTask9.Task2" />
+        <item itemvalue="Application.WorkTask9.Task1" />
         <item itemvalue="Application.Hometask8.Task1" />
         <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656525795225</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" сделал 8 домашку">
+      <created>1657214923126</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657214923126</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +211,7 @@
     <MESSAGE value="Добавил Проект и переименовал" />
     <MESSAGE value="Домашка 7" />
     <MESSAGE value=" сделал 7 домашку" />
-    <option name="LAST_COMMIT_MESSAGE" value=" сделал 7 домашку" />
+    <MESSAGE value=" сделал 8 домашку" />
+    <option name="LAST_COMMIT_MESSAGE" value=" сделал 8 домашку" />
   </component>
 </project>
