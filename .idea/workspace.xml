@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Поработал с проектом">
-      <change afterPath="$PROJECT_DIR$/src/Diplom/Converter.java" afterDir="false" />
+    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Поработал с проектом до конвертора">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Methodist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657994051811</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Поработал с проектом до конвертора">
+      <created>1658082416736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658082416736</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +218,7 @@
     <MESSAGE value=" сделал 7 домашку" />
     <MESSAGE value=" сделал 8 домашку" />
     <MESSAGE value="Поработал с проектом" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поработал с проектом" />
+    <MESSAGE value="Поработал с проектом до конвертора" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поработал с проектом до конвертора" />
   </component>
 </project>

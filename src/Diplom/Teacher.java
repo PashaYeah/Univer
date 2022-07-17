@@ -16,7 +16,7 @@ public class Teacher extends People {
 
     public void payment(double hourlyPayment, double hours) {
         double pay = hourlyPayment * hours;
-        System.out.println("Заработная плата учителя за месяц составляет " + pay + "рублей, за " + hours + " отработанных часов.");
+        System.out.println("Заработная плата учителя за месяц составляет " + pay + " рублей, за " + hours + " отработанных часов.");
     }
 
 }
