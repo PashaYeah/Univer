@@ -2,9 +2,28 @@ package Diplom;
 
 public class Methodist extends People {
 
-    public Methodist(String name, String lastname, int age, Address address) {
+    public Methodist(String name, String lastname, int age, Address address, double hourlyPayment, double hours) {
         super(name, lastname, age, address);
+        this.hourlyPayment = hourlyPayment;
+        this.hours = hours;
     }
+
+    public double getHourlyPayment() {
+        return hourlyPayment;
+    }
+
+    public void setHourlyPayment(double hourlyPayment) {
+        this.hourlyPayment = hourlyPayment;
+    }
+
+    public double getHours() {
+        return hours;
+    }
+
+    public void setHours(double hours) {
+        this.hours = hours;
+    }
+
     @Override
     public String toString() {
         return "Имя методиста - " + super.getName() + ", фамилия - " + super.getLastname() + ", возраст - " + super.getAge()

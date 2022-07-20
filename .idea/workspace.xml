@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Поработал с проектом до конвертора">
+      <change afterPath="$PROJECT_DIR$/src/Diplom/TeacherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Univer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Univer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Methodist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Teacher.java" afterDir="false" />
@@ -17,6 +19,7 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -36,12 +39,27 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Diplom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TeacherTest.payment">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Diplom.Main" />
       <module name="Univer" />
@@ -81,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkTask9.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkTask9.Task1" />
-      <module name="Univer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WorkTask9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WorkTask9.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WorkTask9.Task2" />
       <module name="Univer" />
@@ -107,13 +112,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TeacherTest.payment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Univer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Diplom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Diplom" />
+      <option name="MAIN_CLASS_NAME" value="Diplom.TeacherTest" />
+      <option name="METHOD_NAME" value="payment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TeacherTest.payment" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WorkTask10.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.WorkTask9.Task2" />
-        <item itemvalue="Application.WorkTask9.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658082416736</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Поработал с проектом до конвертора">
+      <created>1658084640213</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658084640213</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Поработал с проектом до конвертора">
+      <created>1658084664386</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658084664386</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
