@@ -7,12 +7,22 @@ public class Group {
     private int course;
     private List<Student> students;
     private Teacher teacherGroup;
+    private Methodist methodistGroup;
 
-    public Group(String groupName, int course, List<Student> students, Teacher teacherGroup) {
+    public Group(String groupName, int course, List<Student> students, Methodist methodistGroup) {
         this.groupName = groupName;
         this.course = course;
         this.students = students;
         this.teacherGroup = teacherGroup;
+        this.methodistGroup = methodistGroup;
+    }
+
+    public Methodist getMethodistGroup() {
+        return methodistGroup;
+    }
+
+    public void setMethodistGroup(Methodist methodistGroup) {
+        this.methodistGroup = methodistGroup;
     }
 
     @Override
@@ -21,7 +31,7 @@ public class Group {
                 "Название группы: " + groupName + "\n"
                 + "Курс - " + course + "\n"
                 + "Студенты: " + students + "\n"
-                + "Руководитель группы - " + teacherGroup +
+                + "Руководитель группы - " + methodistGroup +
                 ".";
     }
 

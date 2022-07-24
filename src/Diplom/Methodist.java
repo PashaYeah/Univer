@@ -34,7 +34,7 @@ public class Methodist extends People {
 
     public void payment(double hourlyPayment, double hours) {
         double pay = hourlyPayment * hours;
-        System.out.println("Заработная плата методиста за месяц составляет " + pay + " рублей, за " + hours + " отработанных часов.");
+        System.out.println("Заработная плата методиста " + super.getName() + " " + super.getLastname() + " за месяц составляет " + pay + " рублей, за " + hours + " отработанных часов.");
     }
 
 }

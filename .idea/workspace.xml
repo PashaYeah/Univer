@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Поработал с проектом до конвертора">
-      <change afterPath="$PROJECT_DIR$/src/Diplom/TeacherTest.java" afterDir="false" />
+    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Переделал проект+">
+      <change afterPath="$PROJECT_DIR$/students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teachers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Univer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Univer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Methodist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,7 @@
       <recent name="Diplom" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TeacherTest.payment">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Diplom.Main" />
       <module name="Univer" />
@@ -130,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TeacherTest.payment" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TeacherTest.payment" />
         <item itemvalue="Application.WorkTask10.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.WorkTask9.Task2" />
@@ -231,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658084664386</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Переделал проект+">
+      <created>1658339920280</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658339920280</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +264,7 @@
     <MESSAGE value=" сделал 8 домашку" />
     <MESSAGE value="Поработал с проектом" />
     <MESSAGE value="Поработал с проектом до конвертора" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поработал с проектом до конвертора" />
+    <MESSAGE value="Переделал проект+" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделал проект+" />
   </component>
 </project>
