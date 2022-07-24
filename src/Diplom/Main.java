@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println("Заработная плата более 9000 рублей у учителей:");
         teachers.stream().filter(t -> t.getHourlyPayment()*t.getHours() > 9000).forEach(t -> System.out.println(t));
-        System.out.print("Уже на пенсии:");
+        System.out.println("Уже на пенсии:");
         teachers.stream().filter(p -> (p.getGender().equals("муж") && p.getAge() >= 63) || (p.getGender().equals("жен") && p.getAge() >= 58)).forEach(p -> System.out.println(p));
 
 ////////////////////////////Блок расчета заработной платы
@@ -34,7 +34,7 @@ public class Main {
 
         Methodist methodist1 = teacherToMetodist.convert(teachers.get(0));
         System.out.println(methodist1);
-        System.out.println(methodist1.getClass());   ////проверка что поменялся класс
+        System.out.println("Класс методиста после конвертации - " + methodist1.getClass());   ////проверка что поменялся класс
         teachers.remove(0);     ///// Удаляем первого учителя, т.к. он стал Методистом
         System.out.println("Количество учителей в Array после перехода первого учителя в Методиста - "+ teachers.size());
 ///////////////////////////////////Посчитаем заработную плату у нового Методиста :)
@@ -43,7 +43,7 @@ public class Main {
         Group group1 = new Group("101321", 2,students, methodist1);
         System.out.println(group1);
 //////////////Создание учителей в подчинении у Методиста
-        System.out.println("В подчинении у методиста " + methodist1.getName() + " " + methodist1.getLastname() + ":" + teachers.toString());
+        System.out.println("В подчинении у методиста " + methodist1.getName()  + " " + methodist1.getLastname() + ":\n" + teachers.toString());
 
     }
 

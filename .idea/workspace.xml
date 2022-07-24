@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Проект читает файлы">
-      <change afterPath="$PROJECT_DIR$/src/Diplom/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diplom/util/ParserUtil.java" afterDir="false" />
+    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Проект читает файлы и есть стримы. Даже рассрортировано по папкам">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/util/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Methodist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/base/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/test/TeacherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/students.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teachers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658685193559</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Проект читает файлы и есть стримы. Даже рассрортировано по папкам">
+      <created>1658688878433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658688878433</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +274,8 @@
     <MESSAGE value="Поработал с проектом до конвертора" />
     <MESSAGE value="Переделал проект+" />
     <MESSAGE value="Проект читает файлы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проект читает файлы" />
+    <MESSAGE value="Проект читает файлы и есть стримы" />
+    <MESSAGE value="Проект читает файлы и есть стримы. Даже рассрортировано по папкам" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проект читает файлы и есть стримы. Даже рассрортировано по папкам" />
   </component>
 </project>

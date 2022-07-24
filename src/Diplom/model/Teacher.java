@@ -29,7 +29,7 @@ public class Teacher extends People {
 
     @Override
     public String toString() {
-        return "\n" + "Имя учителя - " + super.getName() + ", фамилия - " + super.getLastname() + ", возраст - " + super.getAge()
+        return "Имя учителя - " + super.getName() + ", фамилия - " + super.getLastname() + ", возраст - " + super.getAge()
                 + ", проживающий по адресу: " + super.getAddress().toString();
     }
 
