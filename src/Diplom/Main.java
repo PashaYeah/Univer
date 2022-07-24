@@ -1,13 +1,16 @@
 package Diplom;
 
-import java.io.FileInputStream;
+import Diplom.model.Group;
+import Diplom.model.Methodist;
+import Diplom.model.Student;
+import Diplom.model.Teacher;
+import Diplom.util.Converter;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
 
-import static Diplom.Student.addStudents;
-import static Diplom.Teacher.addTeachers;
+import static Diplom.util.ParserUtil.addStudents;
+import static Diplom.util.ParserUtil.addTeachers;
 
 
 public class Main {
@@ -19,10 +22,15 @@ public class Main {
         List<Student> students = addStudents();
         System.out.println("Количество студентов в Array - "+ students.size());      ///// Печатаю для проверки, что всё работает
 
+        System.out.println("Заработная плата более 9000 рублей у учителей:");
+        teachers.stream().filter(t -> t.getHourlyPayment()*t.getHours() > 9000).forEach(t -> System.out.println(t));
+        System.out.print("Уже на пенсии:");
+        teachers.stream().filter(p -> (p.getGender().equals("муж") && p.getAge() >= 63) || (p.getGender().equals("жен") && p.getAge() >= 58)).forEach(p -> System.out.println(p));
+
 ////////////////////////////Блок расчета заработной платы
         teachers.get(1).payment(teachers.get(1).getHourlyPayment(), teachers.get(1).getHours());
 /////////////Блок конвертации преподавателя в Методиста
-        Converter<Methodist, Teacher> teacherToMetodist = (teacher) -> new Methodist(teacher.getName(), teacher.getLastname(), teacher.getAge(), teacher.getAddress(), 75, 168);
+        Converter<Methodist, Teacher> teacherToMetodist = (teacher) -> new Methodist(teacher.getName(), teacher.getLastname(), teacher.getAge(), teacher.getAddress(), teacher.getGender(), 75, 168);
 
         Methodist methodist1 = teacherToMetodist.convert(teachers.get(0));
         System.out.println(methodist1);

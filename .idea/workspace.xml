@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Переделал проект+">
-      <change afterPath="$PROJECT_DIR$/students.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teachers.txt" afterDir="false" />
+    <list default="true" id="ffa401ee-7ae9-4809-b533-fc8a5fb37ee2" name="Changes" comment="Проект читает файлы">
+      <change afterPath="$PROJECT_DIR$/src/Diplom/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Diplom/util/ParserUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/util/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diplom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Methodist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diplom/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Methodist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/base/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diplom/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diplom/test/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/students.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teachers.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,13 +67,13 @@
       <recent name="Diplom" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Diplom.Main">
+    <configuration name="Diplom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Diplom.Main" />
       <module name="Univer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Diplom.*" />
+          <option name="PATTERN" value="Diplom.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +124,12 @@
       <module name="Univer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Diplom.*" />
+          <option name="PATTERN" value="Diplom.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Diplom" />
-      <option name="MAIN_CLASS_NAME" value="Diplom.TeacherTest" />
+      <option name="PACKAGE_NAME" value="Diplom.test" />
+      <option name="MAIN_CLASS_NAME" value="Diplom.test.TeacherTest" />
       <option name="METHOD_NAME" value="payment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -133,7 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Diplom.Main" />
         <item itemvalue="JUnit.TeacherTest.payment" />
         <item itemvalue="Application.WorkTask10.Main" />
         <item itemvalue="Application.Main2" />
@@ -241,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658339920280</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Проект читает файлы">
+      <created>1658685193559</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658685193559</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +277,7 @@
     <MESSAGE value="Поработал с проектом" />
     <MESSAGE value="Поработал с проектом до конвертора" />
     <MESSAGE value="Переделал проект+" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переделал проект+" />
+    <MESSAGE value="Проект читает файлы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проект читает файлы" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package Diplom;
+package Diplom.model;
 
 import java.util.List;
 

@@ -1,9 +1,11 @@
-package Diplom;
+package Diplom.model;
+
+import Diplom.base.People;
 
 public class Methodist extends People {
 
-    public Methodist(String name, String lastname, int age, Address address, double hourlyPayment, double hours) {
-        super(name, lastname, age, address);
+    public Methodist(String name, String lastname, int age, Address address, String gender,double hourlyPayment, double hours) {
+        super(name, lastname, age, address, gender);
         this.hourlyPayment = hourlyPayment;
         this.hours = hours;
     }

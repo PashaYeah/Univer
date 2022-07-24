@@ -1,4 +1,4 @@
-package Diplom;
+package Diplom.model;
 
 public class Address {
     private String city;

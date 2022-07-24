@@ -1,16 +1,28 @@
-package Diplom;
+package Diplom.base;
+
+import Diplom.model.Address;
 
 public class People {
     private String name;
     private String lastname;
     private int age;
     private Address address;
+    private String gender;
 
-    public People(String name, String lastname, int age, Address address) {
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public People(String name, String lastname, int age, Address address, String gender) {
         this.name = name;
         this.lastname = lastname;
         this.age = age;
         this.address = address;
+        this.gender = gender;
     }
 
     public People() {
